@@ -2,6 +2,7 @@
 Hijacks your ssh agents like a champ
 
 ## Usage
+Edit the ssh command in the script.
 ```bash
-bash ssh-hijack.sh <username> <ip> <port>
+bash ssh-hijack.sh
 ```
