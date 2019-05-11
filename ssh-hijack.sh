@@ -6,7 +6,7 @@ while true; do
         directory=$(ls "/tmp/" | sort -n | head -1)
         agent=$(ls "/tmp/$directory/" | sort -n | head -1)
         export SSH_AUTH_SOCK="/tmp/$directory/$agent"
-        ssh $1@$2 -p $3
+        ssh root@10.10.10.10 -p 22
 
         exit 1
     else
